@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SecretSanta</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Montserrat:wght@400;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Yeseva+One&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+   
+    <header class="header">
+        <div class="container header_cont">
+            <div class="header_nav">
+                <img src="./images/Santa_text.png" class="santatext_img" alt="Santa tetx">
+                <img src="./images/light.png" class="light_img" alt="Lights">
+                <div class="logo">
+                    <a href="./index.html" class="logo_link">
+                        <img src="./images/Tree.png" alt="Tree" class="logo_img">
+                        <p class="logo_text">
+                            Secret<span class="span">Santa</span>
+                        </p>
+                    </a>
+                </div>
+                <div class="navigation">
+                    <a href="#" class="nav_link">New</a>
+                    <a href="#" class="nav_link">Popular</a>
+                    <a href="#" class="nav_link">Gifts</a>
+                    <a href="#" class="nav_link">Cards</a>
+                </div>
+                <div class="header_sign">
+                    <button onclick="scrollToContact()" class="button">
+                    Sign in</button>
+                    <button onclick="scrollToContact()" class="button">
+                    Sign up</button>
+                    <button type="button" class="menu" id="navToggle">
+                        <img class="menu_icon" src="./images/nav.svg" alt="Menu button">
+                    </button>
+                </div>
+            </div>
+            <div class="header_content">
+                <div class="header_maintext">
+                    <h2 class="header_title">Hey, it’s Christmas time!</h2>
+                    <p class="header_info">
+                        Find the perfect holiday gift for everyone on your list this year, no matter what’s your budget.
+                    </p>
+                    <button onclick="scrollToContact()" class="main_button">Explore Now</button>
+                </div>
+                <div class="header_image">
+                    <img src="./images/Santa.png" alt="SantaImg" class="santa_img">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="main">
+        <div class="santa_info">
+            <div class="container">
+                <div class="santa_info_group">
+                    <div class="santa_info_image">
+                        <img src="./images/SantaBag.png" alt="Santa with bag" class="santaInfo_img">
+                    </div>
+                    <div class="santa_info_content">
+                        <h2 class="santaInfo_title">Santa claus is Coming</h2>
+                        <p class="santaInfo_text">Fill your Christmas holiday with good cheer, joyful decorations, and unforgettable experience. Feel free to attend our
+                        Christmas event with your children and family and celebrate the most anticipated winter holiday. From Christmas carols
+                        to activities for adults and children, Sannta has a lot to offer.</p>
+                        <button onclick="scrollToContact()" class="main_button btn_sinfo">Get Your Gift</button>
+                    </div>
+                </div>
+                <div class="santa_info_group info_group_2">
+                    <div class="santa_info_content">
+                        <h2 class="santaInfo_title">Christmas wish and party</h2>
+                        <p class="santaInfo_text">Fill your Christmas holiday with good cheer, joyful decorations, and unforgettable experience. Feel free to attend our
+                        Christmas event with your children and family and celebrate the most anticipated winter holiday. From Christmas carols
+                        to activities for adults and children, Sannta has a lot to offer.</p>
+                        <button onclick="scrollToContact()" class="main_button btn_sinfo">Join the Party</button>
+                    </div>
+                    <div class="santa_info_image">
+                        <img src="./images/TreeGifts.png" alt="Tree with gifts" class="santaInfotree_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gifts">
+            <div class="container">
+                <div class="gifts_preinfo">
+                    <h2 class="gifts_title santaInfo_title">Gift Items</h2>
+                    <div class="gifts_info santaInfo_text">Christmas is an annual festival commemorating the birth of Jesus Christ, a cultural celebration among billions of people
+                    around the world.</div>
+                </div>
+                <div class="gifts_main">
+                    <div class="gifts_group">
+                        <img src="./images/giftGroup/Icon1.png" alt="Hat" class="gift_group_img">
+                        <h3 class="gift_group_title">Hat</h3>
+                        <p class="gift_group_text">Inspirational Christmas Greetings Messages for your loved ones – whether you’re sending a small gift to grandma or need
+                        something special to write for.</p>
+                    </div>
+                    <div class="gifts_group">
+                        <img src="./images/giftGroup/Icon2.png" alt="Tree" class="gift_group_img">
+                        <h3 class="gift_group_title">Tree</h3>
+                        <p class="gift_group_text">Inspirational Christmas Greetings Messages for your loved ones – whether you’re sending a small gift to grandma or need
+                        something special to write for.</p>
+                    </div>
+                    <div class="gifts_group">
+                        <img src="./images/giftGroup/Icon3.png" alt="Bell" class="gift_group_img">
+                        <h3 class="gift_group_title">Bell</h3>
+                        <p class="gift_group_text">Inspirational Christmas Greetings Messages for your loved ones – whether you’re sending a small gift to grandma or need
+                        something special to write for.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="event">
+            <div class="container event_cont">
+                <div class="event_img">
+                    <img src="./images/Tree3.png" alt="Tree christmas" class="event_tree_img">
+                </div>
+                <div class="event_info">
+                    <h2 class="santaInfo_title">About the live
+                    event</h2>
+                    <p class="santaInfo_text">Fill your Christmas holiday with good cheer, joyful decorations, and unforgettable experience. Feel free to attend our
+                    Christmas event with your children and family and celebrate the most anticipated winter holiday. From Christmas carols
+                    to activities for adults and children, Sannta has a lot to offer.</p>
+                    <div class="event_main">
+                        <div class="event_group">
+                            <img src="./images/event/Icon4.png" alt="Round tree" class="event_group_img">
+                            <h3 class="event_group_title">Beautiful Design</h3>
+                            <div class="event_group_text">Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        </div>
+                        <div class="event_group">
+                            <img src="./images/event/Icon5.png" alt="Bells" class="event_group_img">
+                            <h3 class="event_group_title">Great Sound</h3>
+                            <div class="event_group_text">Contrary to popular belief, Lorem Ipsum is not simply random text.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contactSection" class="contacts">
+            <div class="container contacts_cont">
+                <div id="formSection" class="contacts_main">
+                    <h2 class="contact_title">Join the party</h2>
+                    <div class="contact_form">
+                        <img src="./images/box.png" alt="Gift" class="box">
+                        <h3 class="form_title">Contact Us</h3>
+                        <p class="form_info">Please fill this form in a decent manner</p>
+
+                        <div class="form_group">
+                            <input class="input" type="text" id="fullName" placeholder=" ">
+                            <label for="fullName" class="label">Full Name</label>
+                        </div>
+                        <div class="form_group">
+                            <input class="input" type="email" id="email" placeholder=" ">
+                            <label for="email" class="label">Email Address</label>
+                        </div>
+                        <div class="form_group">
+                            <input class="input" type="text" id="subject" placeholder=" ">
+                            <label for="subject" class="label">Subject</label>
+                        </div>
+
+                        <button id="submitBtn" class="main_button submit_btn">Submit</button>
+                    </div>
+                </div>
+                <div class="contacts_images">
+                    <img src="./images/gifts.png" alt="Prizes" class="prizes">
+                    <img src="./images/deers.png" alt="Santa and deers" class="santa2_img">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_main">
+                <div class="footer_info">
+                    <h2 class="footer_title">Stay In Touch</h2>
+                    <div class="footer_text">Don't be a stranger and start following us :)</div>
+                </div>
+                <div class="footer_group">
+                    <a href="#" class="footer_link">
+                        <img src="./images/social/Facebook.png" alt="Facebook">
+                    </a>
+                    <a href="#" class="footer_link">
+                        <img src="./images/social/Instagram.png" alt="Instagram">
+                    </a>
+                    <a href="#" class="footer_link">
+                        <img src="./images/social/Discord.png" alt="Discord">
+                    </a>
+                    <a href="#" class="footer_link">
+                        <img src="./images/social/Dribbble.png" alt="Dribble">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <img src="./images/footer.png" alt="Grass" class="footer_img">
+    </footer>
+    
+
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <p class="logo_text modal_logo">
+                Secret<span class="span">Santa</span>
+            </p>
+            <button type="button" class="close_modal" id="close-modal">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="15" cy="15" r="15" fill="white" />
+                    <circle cx="15" cy="15" r="14.5" stroke="black" stroke-opacity="0.1" />
+                    <path class="modal_close_blue"
+                        d="M21 10.1079L19.8921 9L15.5 13.3921L11.1079 9L10 10.1079L14.3921 14.5L10 18.8921L11.1079 20L15.5 15.6079L19.8921 20L21 18.8921L16.6079 14.5L21 10.1079Z"
+                        fill="black" />
+                </svg>
+            </button>
+
+            <p class="modal_text">Thanks for registration!</p>
+
+            <div class="form_group">
+                <input class="input" type="text" id="modalFullName" placeholder=" " readonly>
+                <label for="modalFulle" class="label mlabel">Full Name</label>
+            </div>
+            <div class="form_group">
+                <input class="input" type="email" id="modalEmail" placeholder=" " readonly>
+                <label for="modalEil" class="label mlabel">Email Address</label>
+            </div>
+            <div class="form_group">
+                <input class="input" type="text" id="modalSubject" placeholder=" " readonly>
+                <label for="modalject" class="label mlabel">Subject</label>
+            </div>
+
+            <p class="modal_text_data">If the data is empty, then no ward has registered yet</p>
+        </div>
+    </div>
+    
+
+
+    <!-----JS----->
+    <script src="./js/app.js"></script>
+    
+</body>
+</html>
